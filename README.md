@@ -32,32 +32,33 @@ L’APPLICATION PERMET DE :
 pip install streamlit pandas
 
 ###2. LANCER L’APPLICATION
-bash
-Copier
-Modifier
+
+```bash
 streamlit run app.py
 💡 ASSURE-TOI D’AVOIR LE FICHIER hotel.db DANS LE MÊME DOSSIER QUE app.py.
 
+---
+
 ## 🔍 FONCTIONNALITÉS DE L’INTERFACE
-🧾 VOIR LA LISTE DES CLIENTS
 
-📆 VOIR LES RÉSERVATIONS
+- 🧾 Voir la liste des clients  
+- 📆 Voir les réservations  
+- 🔍 Rechercher les chambres disponibles entre deux dates  
+- ➕ Ajouter un nouveau client  
+- 📋 Ajouter une réservation  
 
-🔍 RECHERCHER LES CHAMBRES DISPONIBLES ENTRE DEUX DATES
+---
 
-➕ AJOUTER UN NOUVEAU CLIENT
+## 🧠 TECHNOLOGIES UTILISÉES
 
-📋 AJOUTER UNE RÉSERVATION
+- Python 3.x  
+- SQLite  
+- Streamlit  
+- pandas  
 
-## TECHNOLOGIES UTILISÉES
-PYTHON 3.X
-
-SQLITE (BASE DE DONNÉES LÉGÈRE)
-
-STREAMLIT (INTERFACE WEB)
-
-PANDAS (POUR L’AFFICHAGE DES TABLEAUX)
+---
 
 ## 👩‍💻 RÉALISÉ PAR
-NADA
-ÉTUDIANTE EN INFORMATIQUE, PASSIONNÉE PAR LA CYBERSÉCURITÉ ET LES PROJETS PRATIQUES 💻🔐
+
+Nada  
+Étudiante en informatique, passionnée par la cybersécurité 💻🔐
