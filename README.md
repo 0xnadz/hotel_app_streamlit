@@ -31,14 +31,14 @@ L’application permet de :
 
 ```bash
 pip install -r requirements.txt
-
-### 2. Lancer l’application
+2. Lancer l’application
+bash
+Copier
+Modifier
 streamlit run app.py
 💡 Assure-toi d’avoir le fichier hotel.db dans le même dossier que app.py.
 
-
-##🔍 Fonctionnalités de l’interface
-
+🔍 Fonctionnalités de l’interface
 🧾 Voir la liste des clients
 
 📆 Voir les réservations
@@ -49,9 +49,7 @@ streamlit run app.py
 
 📋 Ajouter une réservation
 
-
-## Technologies utilisées
-
+Technologies utilisées
 Python 3.x
 
 SQLite (base de données légère)
@@ -60,6 +58,6 @@ Streamlit (interface web)
 
 pandas (pour l’affichage des tableaux)
 
-## 👩‍💻 Réalisé par
+👩‍💻 Réalisé par
 Nada
 Étudiante en informatique, passionnée par la cybersécurité et les projets pratiques 💻🔐
