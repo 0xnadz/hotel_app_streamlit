@@ -1,63 +1,62 @@
-# 🏨 Projet Interface Hôtel - Base de Données + Streamlit
+# 🏨 PROJET INTERFACE HÔTEL - BASE DE DONNÉES + STREAMLIT
 
-Ce projet est réalisé dans le cadre du module **Bases de Données Relationnelles**.
+CE PROJET EST RÉALISÉ DANS LE CADRE DU MODULE **BASES DE DONNÉES RELATIONNELLES**.
 
-## 🎯 Objectif du projet
+## 🎯 OBJECTIF DU PROJET
 
-Développer une application de gestion d’un hôtel avec :
-- Une base de données relationnelle (`SQLite`)
-- Une interface utilisateur en Python avec **Streamlit**
+DÉVELOPPER UNE APPLICATION DE GESTION D’UN HÔTEL AVEC :
+- UNE BASE DE DONNÉES RELATIONNELLE (`SQLITE`)
+- UNE INTERFACE UTILISATEUR EN PYTHON AVEC **STREAMLIT**
 
-L’application permet de :
-- Voir les clients et réservations
-- Ajouter un client ou une réservation
-- Afficher les chambres disponibles entre deux dates
+L’APPLICATION PERMET DE :
+- VOIR LES CLIENTS ET RÉSERVATIONS
+- AJOUTER UN CLIENT OU UNE RÉSERVATION
+- AFFICHER LES CHAMBRES DISPONIBLES ENTRE DEUX DATES
 
 
-## 📁 Contenu du projet
+## 📁 CONTENU DU PROJET
 
-| Fichier         | Description                                                   |
+| FICHIER         | DESCRIPTION                                                   |
 |-----------------|---------------------------------------------------------------|
-| `create_db.py`  | Script Python pour créer la base `hotel.db` avec les tables et les données |
-| `hotel.db`      | Fichier SQLite contenant les données de l’hôtel               |
-| `app.py`        | Interface Streamlit complète                                   |
-| `requirements.txt` | Dépendances Python nécessaires (`streamlit`, `pandas`)     |
-| `README.md`     | Ce fichier : résumé du projet et guide d’utilisation          |
+| `create_db.py`  | SCRIPT PYTHON POUR CRÉER LA BASE `hotel.db` AVEC LES TABLES ET LES DONNÉES |
+| `hotel.db`      | FICHIER SQLITE CONTENANT LES DONNÉES DE L’HÔTEL               |
+| `app.py`        | INTERFACE STREAMLIT COMPLÈTE                                   |
+| `README.md`     | CE FICHIER : RÉSUMÉ DU PROJET ET GUIDE D’UTILISATION          |
 
 
-## 🚀 Lancer le projet localement
+## 🚀 LANCER LE PROJET LOCALEMENT
 
-### 1. Installer les dépendances
+### 1. INSTALLER LES DÉPENDANCES
 
 ```bash
-pip install -r requirements.txt
-2. Lancer l’application
+pip install streamlit pandas
+2. LANCER L’APPLICATION
 bash
 Copier
 Modifier
 streamlit run app.py
-💡 Assure-toi d’avoir le fichier hotel.db dans le même dossier que app.py.
+💡 ASSURE-TOI D’AVOIR LE FICHIER hotel.db DANS LE MÊME DOSSIER QUE app.py.
 
-🔍 Fonctionnalités de l’interface
-🧾 Voir la liste des clients
+🔍 FONCTIONNALITÉS DE L’INTERFACE
+🧾 VOIR LA LISTE DES CLIENTS
 
-📆 Voir les réservations
+📆 VOIR LES RÉSERVATIONS
 
-🔍 Rechercher les chambres disponibles entre deux dates
+🔍 RECHERCHER LES CHAMBRES DISPONIBLES ENTRE DEUX DATES
 
-➕ Ajouter un nouveau client
+➕ AJOUTER UN NOUVEAU CLIENT
 
-📋 Ajouter une réservation
+📋 AJOUTER UNE RÉSERVATION
 
-Technologies utilisées
-Python 3.x
+TECHNOLOGIES UTILISÉES
+PYTHON 3.X
 
-SQLite (base de données légère)
+SQLITE (BASE DE DONNÉES LÉGÈRE)
 
-Streamlit (interface web)
+STREAMLIT (INTERFACE WEB)
 
-pandas (pour l’affichage des tableaux)
+PANDAS (POUR L’AFFICHAGE DES TABLEAUX)
 
-👩‍💻 Réalisé par
-Nada
-Étudiante en informatique, passionnée par la cybersécurité et les projets pratiques 💻🔐
+👩‍💻 RÉALISÉ PAR
+NADA
+ÉTUDIANTE EN INFORMATIQUE, PASSIONNÉE PAR LA CYBERSÉCURITÉ ET LES PROJETS PRATIQUES 💻🔐
